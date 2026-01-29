@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id="desk-surface">
+    <div class="game-wrapper">
+    <div id="sketch-outline">
+        <h1>ETCH-A-SKETCH</h1>
+        <div class="handle left-handle">
+            <div class="knob-surface" id="left-surface"></div>
+        </div>
+            <div id="sketch-container">
+            </div>
+        <div class="handle right-handle">
+            <div class="knob-surface" id="right-surface"></div>
+        </div>
+    </div>
+    <div id="control-dock">
+    <div class="control-group">
+        <label for="gridSelect">Grid Size: <span id="gridValue">24</span></label>
+        <input type="range" min="8" max="64" value="24" id="gridSelect" step="8">
+    </div>
+    <button id="clearBtn">SHAKE TO CLEAR</button>
+</div>
+    </div>
+    </div>
+</body>
+</html>
