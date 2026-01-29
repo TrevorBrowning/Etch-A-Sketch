@@ -1,6 +1,6 @@
 # Etch-A-Sketch
 
-A digital replica of the classic Etch-A-Sketch toy, built as part of [The Odin Project]('https://www.theodinproject.com') curriculum. 
+A digital replica of the classic Etch-A-Sketch toy, built as part of (The Odin Project)['https://www.theodinproject.com'] curriculum. 
 
 ## Features
 - **Dynamic Grid Size**: Adjust the resolution of the drawing board using the slider.
